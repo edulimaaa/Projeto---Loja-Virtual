@@ -1,0 +1,23 @@
+body {
+    background-color: #8B8B8C !important;
+}
+
+#logo{
+    width: 75px !important;
+}
+
+.nav-item:hover {
+    background-color: #F20505;
+    width: auto;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+a {
+    font-size: 20px;
+}
