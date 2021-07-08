@@ -1,9 +1,13 @@
 body {
-    background-color: #8B8B8C !important;
+    background-color: #F2F2F2 !important;
 }
-
+/*IMAGEM DA EMPRESA*/
 #logo{
     width: 75px !important;
+    border-color: white;
+    border-style:  solid;
+    border-width: 2px;
+    border-radius: 50%;
 }
 
 .nav-item:hover {
@@ -12,12 +16,106 @@ body {
     border-radius: 10px;
     transition: 1s;
     
-}
-
-.nav-item{
+}.nav-item{
     margin: 10px;
 }
 
 a {
     font-size: 20px;
+    color: white !important;
+    
 }
+
+/*Slides*/
+#carouselExampleCaptions{
+    margin-top: 92px;
+}
+.d-block {
+    height: 100%; 
+}
+#btn-planos{
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+#btn-instala{
+    border-radius: 20px;
+    margin-bottom: 60px;  
+}
+/*Slides fim*/
+/*Area Escolha de Planos*/
+
+#text-planos{
+    text-align: center;
+    background-color: #F20505;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#bloco-precos{
+    margin-top: 5px;
+}
+
+#plano1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8B8B8C;
+    text-align: center;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+#plano2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8B8B8C;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px; 
+}
+#plano3{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #8B8B8C;
+    text-align: center;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+.text-plano{
+    margin-top: 10px;
+    color: #8C0303;
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    justify-items: center;
+    text-align: justify;
+    border-radius: 10px;
+}
+.valor-plano{
+    background-color: #F2F2F2;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.btn-danger{
+    font-size: 20px !important;
+    border-radius: 20px !important;
+    width: 300px;
+    justify-content: end !important;
+    
+}
+#btn-aproveite1{
+    margin-top: 185px;
+    margin-bottom: 30px;
+}
+#btn-aproveite2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+#btn-aproveite3{
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+
+
+/*FIM Area escolha de planos*/
