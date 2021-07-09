@@ -46,7 +46,9 @@ a {
 
 #text-planos{
     text-align: center;
-    background-color: #F20505;
+    color: white;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(230,0,0,1) 58%, rgba(0,0,0,1) 100%);
     margin-top: 5px;
     padding: 5px;
     font-size: 20px;
@@ -59,32 +61,51 @@ a {
 #plano1{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #8B8B8C;
+    background: #616161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     text-align: center;
-    margin-right: 3px;
-    border-radius: 10px;
+    margin-right: 16px;
+    border-radius: 10px;  
+}#plano1:hover{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.603);
 }
+
 #plano2{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #8B8B8C;
+    background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     text-align: center;
     margin-left: 3px;
-    margin-right: 3px;
+    margin-right: 16px;
     border-radius: 10px; 
+}#plano2:hover{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.603);
 }
+
 #plano3{
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #8B8B8C;
+    background: #ED213A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
     text-align: center;
-    margin-left: 3px;
+    margin-right: 16px;
     border-radius: 10px;
+}#plano3:hover{
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.603);
 }
 .text-plano{
     margin-top: 10px;
     color: #8C0303;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2a6;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 19px;
     justify-items: center;
@@ -115,7 +136,76 @@ a {
     margin-top: 45px;
     margin-bottom: 30px;
 }
+/*FIM -- Area escolha de planos*/
+/*CAIXA FRASE MOTIVAÇÃO*/
+#text-frase{
+    background: rgb(66,65,65);
+    background: linear-gradient(90deg, rgba(66,65,65,1) 10%, rgba(83,81,81,1) 21%, rgba(135,132,132,1) 39%, rgba(130,127,127,1) 52%, rgba(125,122,122,1) 64%, rgba(103,100,100,1) 73%, rgba(72,70,70,1) 89%);
+    color: white;
+
+
+    margin: 0;
+    margin-top: 25px !important;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 6px;
+}
+/*FIM -- CAIXA FRASE MOTIVAÇÃO*/
 
 
 
-/*FIM Area escolha de planos*/
+
+
+/*FOTOS INSTALAÇÕES*/
+#fotos-instalacoes{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(116,116,116,1) 32%, rgba(0,0,0,1) 100%);
+    
+    margin: 0%;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+
+#instfoto1 > img{
+    width: 100% ;
+    height: 100%;
+    position: relative !important;
+}
+#instfoto2 > img{
+    width: 100% ;
+    height: 100%;
+}
+#instfoto3 > img{
+    width: 100% ;
+    height: 100%;
+}
+#instfoto4 > img{
+    width: 100% ;
+    height: 100%;
+}
+#instfoto5 > img{
+    width: 100% ;
+    height: 100%;
+}
+#instfoto6 > img{
+    width: 100% ;
+    height: 100%;
+}
+
+.oferece-item h4 {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 22px;
+    position: absolute;
+   right: 5%;
+    bottom: 0;
+    padding: 15px;
+    width: 90%;
+    z-index: 20;
+    box-shadow: 5px 5px 9px black;
+  }
+  
+
+/*FIM FOTOS INSTALAÇÕES*/
